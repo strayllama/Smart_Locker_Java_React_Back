@@ -17,7 +17,7 @@ import java.util.List;
 
         List<E> getAllRet(String retailer);
 
-        Parcel updateParcelLocation(Integer id, String location, Integer lockerBox);
+        void updateParcelLocation(Integer id, String location, Integer lockerBox);
 
     }
 

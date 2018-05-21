@@ -51,8 +51,8 @@ public final class ParcelService implements AbstractService<Parcel> {
     }
 
     @Override
-    public Parcel updateParcelLocation(Integer id, String location, Integer lockerBox) {
-        return parcelStore.updateParcelLocation(id, location, lockerBox);
+    public void updateParcelLocation(Integer id, String location, Integer lockerBox) {
+        parcelStore.updateParcelLocation(id, location, lockerBox);
     }
 
 }

@@ -12,7 +12,7 @@ public class ParcelStore {
     public Parcel parcel2;
     public Parcel parcel3;
 
-    ParcelStore() {
+    public ParcelStore() {
         parcel1 = new Parcel(
                 1001,"Bob", "Maplins",
                 "Liberton", 1,
